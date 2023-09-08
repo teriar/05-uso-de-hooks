@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import { CounterApp } from './01-useState/CounterApp'
-// import { CounterWhithCustomHooks } from './01-useState/CounterWhithCustomHooks'
+ //import { CounterApp } from './01-useState/CounterApp'
+import { CounterWhithCustomHooks } from './01-useState/CounterWhithCustomHooks'
 import './index.css'
-// import { SimpleForm } from './02-useEfect/SimpleForm'
+//import { SimpleForm } from './02-useEfect/SimpleForm'
 // import { FormWithCUstoomHook } from './02-useEfect/formWithCustomHook'
-// import { MultipleCUstomHooks } from './03-examples/MultipleCUstomHooks'
+ import { MultipleCUstomHooks } from './03-examples/MultipleCUstomHooks'
 // import { FocusScreen } from './04-useRef/FocusScreen'
 // import { Layout } from './05-useLayouEfect/Laytout'
 // import { Memorize } from './06-memos/Memorize'
@@ -21,7 +21,9 @@ import {BrowserRouter} from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
    {/* <React.StrictMode> */}
-  <MainApp/>
+  {/* <MainApp/> */}
+  {/* <MultipleCUstomHooks/> */}
+   <CounterWhithCustomHooks></CounterWhithCustomHooks>
    {/* </React.StrictMode> */}
   </BrowserRouter>
 )
